@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADDBDD319FD88DF003420EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBDD219FD88DF003420EB /* AppDelegate.swift */; };
+		FADDBDD519FD88DF003420EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDD419FD88DF003420EB /* GameScene.sks */; };
+		FADDBDD719FD88DF003420EB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBDD619FD88DF003420EB /* GameScene.swift */; };
+		FADDBDD919FD88DF003420EB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBDD819FD88DF003420EB /* GameViewController.swift */; };
+		FADDBDDC19FD88DF003420EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDDA19FD88DF003420EB /* Main.storyboard */; };
+		FADDBDDE19FD88DF003420EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDDD19FD88DF003420EB /* Images.xcassets */; };
+		FADDBDE119FD88DF003420EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDDF19FD88DF003420EB /* LaunchScreen.xib */; };
+		FADDBDED19FD88DF003420EB /* PusheenCommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBDEC19FD88DF003420EB /* PusheenCommandTests.swift */; };
+		FADDBDFA19FD8C72003420EB /* turret1.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDF719FD8C72003420EB /* turret1.png */; };
+		FADDBDFB19FD8C72003420EB /* turret2.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDF819FD8C72003420EB /* turret2.png */; };
+		FADDBDFC19FD8C72003420EB /* turret3.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDF919FD8C72003420EB /* turret3.png */; };
+		FADDBDFE19FD921F003420EB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBDFD19FD921F003420EB /* background.png */; };
+		FADDBE0219FD990D003420EB /* pusheenKitty.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBE0119FD990D003420EB /* pusheenKitty.png */; };
+		FADDBE0419FD9D1B003420EB /* desserts.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDBE0319FD9D1B003420EB /* desserts.png */; };
+		FADDBE0819FDACE2003420EB /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = FADDBE0619FDACE2003420EB /* background-music-aac.caf */; };
+		FADDBE0919FDACE2003420EB /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = FADDBE0719FDACE2003420EB /* pew-pew-lei.caf */; };
+		FADDBE0B19FDAD61003420EB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDBE0A19FDAD61003420EB /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADDBDE719FD88DF003420EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADDBDC519FD88DF003420EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADDBDCC19FD88DF003420EB;
+			remoteInfo = PusheenCommand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADDBDCD19FD88DF003420EB /* PusheenCommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PusheenCommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADDBDD119FD88DF003420EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADDBDD219FD88DF003420EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADDBDD419FD88DF003420EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FADDBDD619FD88DF003420EB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FADDBDD819FD88DF003420EB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FADDBDDB19FD88DF003420EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADDBDDD19FD88DF003420EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FADDBDE019FD88DF003420EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FADDBDE619FD88DF003420EB /* PusheenCommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PusheenCommandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADDBDEB19FD88DF003420EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADDBDEC19FD88DF003420EB /* PusheenCommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PusheenCommandTests.swift; sourceTree = "<group>"; };
+		FADDBDF719FD8C72003420EB /* turret1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret1.png; sourceTree = "<group>"; };
+		FADDBDF819FD8C72003420EB /* turret2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret2.png; sourceTree = "<group>"; };
+		FADDBDF919FD8C72003420EB /* turret3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turret3.png; sourceTree = "<group>"; };
+		FADDBDFD19FD921F003420EB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FADDBE0119FD990D003420EB /* pusheenKitty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pusheenKitty.png; sourceTree = "<group>"; };
+		FADDBE0319FD9D1B003420EB /* desserts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desserts.png; sourceTree = "<group>"; };
+		FADDBE0619FDACE2003420EB /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		FADDBE0719FDACE2003420EB /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		FADDBE0A19FDAD61003420EB /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADDBDCA19FD88DF003420EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADDBDE319FD88DF003420EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADDBDC419FD88DF003420EB = {
+			isa = PBXGroup;
+			children = (
+				FADDBE0519FDACE2003420EB /* Sounds */,
+				FADDBDF619FD8C72003420EB /* images */,
+				FADDBDCF19FD88DF003420EB /* PusheenCommand */,
+				FADDBDE919FD88DF003420EB /* PusheenCommandTests */,
+				FADDBDCE19FD88DF003420EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADDBDCE19FD88DF003420EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBDCD19FD88DF003420EB /* PusheenCommand.app */,
+				FADDBDE619FD88DF003420EB /* PusheenCommandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADDBDCF19FD88DF003420EB /* PusheenCommand */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBE0A19FDAD61003420EB /* GameOverScene.swift */,
+				FADDBDD219FD88DF003420EB /* AppDelegate.swift */,
+				FADDBDD419FD88DF003420EB /* GameScene.sks */,
+				FADDBDD619FD88DF003420EB /* GameScene.swift */,
+				FADDBDD819FD88DF003420EB /* GameViewController.swift */,
+				FADDBDDA19FD88DF003420EB /* Main.storyboard */,
+				FADDBDDD19FD88DF003420EB /* Images.xcassets */,
+				FADDBDDF19FD88DF003420EB /* LaunchScreen.xib */,
+				FADDBDD019FD88DF003420EB /* Supporting Files */,
+			);
+			path = PusheenCommand;
+			sourceTree = "<group>";
+		};
+		FADDBDD019FD88DF003420EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBDD119FD88DF003420EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADDBDE919FD88DF003420EB /* PusheenCommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBDEC19FD88DF003420EB /* PusheenCommandTests.swift */,
+				FADDBDEA19FD88DF003420EB /* Supporting Files */,
+			);
+			path = PusheenCommandTests;
+			sourceTree = "<group>";
+		};
+		FADDBDEA19FD88DF003420EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBDEB19FD88DF003420EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADDBDF619FD8C72003420EB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBE0319FD9D1B003420EB /* desserts.png */,
+				FADDBE0119FD990D003420EB /* pusheenKitty.png */,
+				FADDBDFD19FD921F003420EB /* background.png */,
+				FADDBDF719FD8C72003420EB /* turret1.png */,
+				FADDBDF819FD8C72003420EB /* turret2.png */,
+				FADDBDF919FD8C72003420EB /* turret3.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FADDBE0519FDACE2003420EB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FADDBE0619FDACE2003420EB /* background-music-aac.caf */,
+				FADDBE0719FDACE2003420EB /* pew-pew-lei.caf */,
+			);
+			name = Sounds;
+			path = ../../../Downloads/SpriteKitSimpleGameResources/Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADDBDCC19FD88DF003420EB /* PusheenCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADDBDF019FD88DF003420EB /* Build configuration list for PBXNativeTarget "PusheenCommand" */;
+			buildPhases = (
+				FADDBDC919FD88DF003420EB /* Sources */,
+				FADDBDCA19FD88DF003420EB /* Frameworks */,
+				FADDBDCB19FD88DF003420EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PusheenCommand;
+			productName = PusheenCommand;
+			productReference = FADDBDCD19FD88DF003420EB /* PusheenCommand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADDBDE519FD88DF003420EB /* PusheenCommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADDBDF319FD88DF003420EB /* Build configuration list for PBXNativeTarget "PusheenCommandTests" */;
+			buildPhases = (
+				FADDBDE219FD88DF003420EB /* Sources */,
+				FADDBDE319FD88DF003420EB /* Frameworks */,
+				FADDBDE419FD88DF003420EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADDBDE819FD88DF003420EB /* PBXTargetDependency */,
+			);
+			name = PusheenCommandTests;
+			productName = PusheenCommandTests;
+			productReference = FADDBDE619FD88DF003420EB /* PusheenCommandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADDBDC519FD88DF003420EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "alex molinaro";
+				TargetAttributes = {
+					FADDBDCC19FD88DF003420EB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FADDBDE519FD88DF003420EB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FADDBDCC19FD88DF003420EB;
+					};
+				};
+			};
+			buildConfigurationList = FADDBDC819FD88DF003420EB /* Build configuration list for PBXProject "PusheenCommand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADDBDC419FD88DF003420EB;
+			productRefGroup = FADDBDCE19FD88DF003420EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADDBDCC19FD88DF003420EB /* PusheenCommand */,
+				FADDBDE519FD88DF003420EB /* PusheenCommandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADDBDCB19FD88DF003420EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADDBDE119FD88DF003420EB /* LaunchScreen.xib in Resources */,
+				FADDBDFE19FD921F003420EB /* background.png in Resources */,
+				FADDBE0219FD990D003420EB /* pusheenKitty.png in Resources */,
+				FADDBDFC19FD8C72003420EB /* turret3.png in Resources */,
+				FADDBE0419FD9D1B003420EB /* desserts.png in Resources */,
+				FADDBE0819FDACE2003420EB /* background-music-aac.caf in Resources */,
+				FADDBDFA19FD8C72003420EB /* turret1.png in Resources */,
+				FADDBDDE19FD88DF003420EB /* Images.xcassets in Resources */,
+				FADDBDD519FD88DF003420EB /* GameScene.sks in Resources */,
+				FADDBDFB19FD8C72003420EB /* turret2.png in Resources */,
+				FADDBDDC19FD88DF003420EB /* Main.storyboard in Resources */,
+				FADDBE0919FDACE2003420EB /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADDBDE419FD88DF003420EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADDBDC919FD88DF003420EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADDBDD719FD88DF003420EB /* GameScene.swift in Sources */,
+				FADDBDD919FD88DF003420EB /* GameViewController.swift in Sources */,
+				FADDBE0B19FDAD61003420EB /* GameOverScene.swift in Sources */,
+				FADDBDD319FD88DF003420EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADDBDE219FD88DF003420EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADDBDED19FD88DF003420EB /* PusheenCommandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADDBDE819FD88DF003420EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADDBDCC19FD88DF003420EB /* PusheenCommand */;
+			targetProxy = FADDBDE719FD88DF003420EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADDBDDA19FD88DF003420EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADDBDDB19FD88DF003420EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADDBDDF19FD88DF003420EB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADDBDE019FD88DF003420EB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADDBDEE19FD88DF003420EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADDBDEF19FD88DF003420EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADDBDF119FD88DF003420EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PusheenCommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FADDBDF219FD88DF003420EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PusheenCommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FADDBDF419FD88DF003420EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PusheenCommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusheenCommand.app/PusheenCommand";
+			};
+			name = Debug;
+		};
+		FADDBDF519FD88DF003420EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PusheenCommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusheenCommand.app/PusheenCommand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADDBDC819FD88DF003420EB /* Build configuration list for PBXProject "PusheenCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADDBDEE19FD88DF003420EB /* Debug */,
+				FADDBDEF19FD88DF003420EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADDBDF019FD88DF003420EB /* Build configuration list for PBXNativeTarget "PusheenCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADDBDF119FD88DF003420EB /* Debug */,
+				FADDBDF219FD88DF003420EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADDBDF319FD88DF003420EB /* Build configuration list for PBXNativeTarget "PusheenCommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADDBDF419FD88DF003420EB /* Debug */,
+				FADDBDF519FD88DF003420EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADDBDC519FD88DF003420EB /* Project object */;
+}
